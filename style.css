@@ -170,29 +170,39 @@ font-weight: 200;
 .sign-up-block{
   display: flex;
   height: 100px;
-  width: 650px;
-  justify-content: center;
+  width: 850px;
+  justify-content: space-between;
   align-items: center;
-  background-color: blue;
-  border-radius: 12px;
-
-
+  background-color: coral;
+  border-radius: 5px;
 }
+
 
 .sign-up-text{
   display: flex;
   flex-direction: column;
   color: white;
+  margin-left: 100px;
+}
+
+.sign-up-text-title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sign-up-text-description{
+  font-size: 12px;
 }
 
 .sign-up-button{
   width: 80px;
   height: 30px;
-  background-color: blue;
+  background-color: coral;
   color: white;
   border: 2px solid white;
-  border-radius: 12px;
-
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-left: 30px;
 }
 
 .footer{
