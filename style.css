@@ -150,6 +150,8 @@ body{
 
 .quote{
 text-align: justify;
+font-style: italic;
+font-weight: 200;
 }
 
 .quote-attribution{
