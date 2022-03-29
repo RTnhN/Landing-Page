@@ -43,27 +43,36 @@ body{
 .title-bar{
   display: flex;
   justify-content: center;
-  padding:50px;
+  align-items: center;
   background-color: darkslategray;
   gap: 12px;
+  padding-top: 20px;
+}
+
+.title-bar-subcontainer{
+  display: flex;
+  width: min(1000px, 90%);
+  align-items: center;
+  padding: 60px 0px
 }
 
 .title-text{
   display: flex;
   flex-direction: column;
-  width: 400px;
+  flex: 1;
 }
 
 .title-image{
-  width: 300px;
-  height: 150px;
+  max-width: 350px;
+  height: auto;
+  margin-left: 50px;
 
 }
 
 .title-button{
   width: 80px;
   height: 30px;
-  background-color: blue;
+  background-color: coral;
   color: white;
   border-radius: 12px;
   box-shadow: none;
@@ -73,10 +82,15 @@ body{
 .title{
   color: white;
   font-size: 35px;
+  margin: 0;
+  flex-shrink: 1;
+  flex-wrap: wrap;
 }
 .title-subtext{
   color: white;
   margin-bottom: 12px;
+  flex-shrink: 1;
+  flex-wrap:wrap;
 }
 
 
